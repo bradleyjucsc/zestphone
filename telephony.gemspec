@@ -14,6 +14,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 3.0"
+  s.add_dependency "mysql2", "0.3.11"
+  s.add_dependency "twilio-ruby", "3.9.0"
   s.add_dependency "state_machine"
   s.add_dependency "kaminari"
   s.add_dependency "pusher", "0.11.3"

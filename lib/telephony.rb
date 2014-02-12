@@ -1,6 +1,7 @@
 require 'telephony/engine'
 require 'telephony/helper'
 require 'telephony/providers/twilio_provider'
+require 'twilio-ruby'
 
 module Telephony
   mattr_accessor :provider,
